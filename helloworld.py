@@ -1,7 +1,11 @@
+print ('Enter your name:')
 x = input ()
 
-if x:
+def welcome ():
     print ('Hello ' + x + '!')
+
+if x:
+    welcome ()
 else:
     x = 'World'
-    print ('Hello ' + x + '!')
+    welcome ()
